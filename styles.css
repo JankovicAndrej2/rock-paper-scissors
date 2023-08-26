@@ -1,0 +1,18 @@
+.top-text, .player-options{
+    display: flex;
+    
+    
+}
+.top-text{
+    font-size: 40px;
+    margin-bottom: 0px;
+    justify-content: center;
+}
+
+.player-options {
+    justify-content: center;
+    align-items:end;
+    scale: 30%;
+    
+    
+}

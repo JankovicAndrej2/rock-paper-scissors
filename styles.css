@@ -1,18 +1,39 @@
-.top-text, .player-options{
+.player-options, .top-text, .computer-options{
     display: flex;
-    
-    
-}
-.top-text{
-    font-size: 40px;
-    margin-bottom: 0px;
     justify-content: center;
+    
 }
 
-.player-options {
-    justify-content: center;
-    align-items:end;
-    scale: 30%;
+.player-options{
+    height: 150px;
+}
+
+.top-text{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: rgb(54, 96, 231);
+    width:fit-content;
+    margin: auto;
+    border-radius: 10px;
     
-    
+}
+
+.player-options .img:hover{
+    opacity: 0.5;
+}
+
+.score{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: rgb(54, 96, 231);
+    width:fit-content;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.computer-options{
+    height: 150px;
 }

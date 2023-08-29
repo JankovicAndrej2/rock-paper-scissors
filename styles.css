@@ -17,6 +17,7 @@
     margin: auto;
     border-radius: 10px;
     margin-bottom: 10px;
+    
 }
 
 .player-options .img:hover{
@@ -44,4 +45,31 @@
     margin: auto;
     margin-top: 50px;
     font-size: 20px;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    overflow: hidden;
+    background-image: url("./img/background.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    background-size: cover;
+    backdrop-filter: blur(50px);
+    padding-top: 20px;
+
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+button:hover{
+    opacity: 0.5;
+    background-color: rgb(143, 143, 143);
 }

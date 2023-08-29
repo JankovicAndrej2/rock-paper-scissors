@@ -12,11 +12,11 @@
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
-    background-color: rgb(54, 96, 231);
+    background-color: CornflowerBlue;
     width:fit-content;
     margin: auto;
     border-radius: 10px;
-    
+    margin-bottom: 10px;
 }
 
 .player-options .img:hover{
@@ -27,7 +27,7 @@
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
-    background-color: rgb(54, 96, 231);
+    background-color: CornflowerBlue;
     width:fit-content;
     margin: auto;
     border-radius: 10px;
@@ -36,4 +36,12 @@
 }
 .computer-options{
     height: 150px;
+}
+.reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 20px;
 }
